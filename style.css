@@ -1,0 +1,22 @@
+.cool-button {
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  background: linear-gradient(120deg, crimson, #4b56f7, #66bdff);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position .5s;
+}
+
+.cool-button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-position: 0 0;
+}
+html {
+  background-image: "";
+}
